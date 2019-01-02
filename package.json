@@ -1,0 +1,15 @@
+{
+  "name": "ec2Terminator",
+  "version": "0.1.0",
+  "description": "Terminating EC2 instance if most recent commit time > 3 days.",
+  "main": "handler.js",
+  "dependencies": {
+    "request": "^2.8.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tony Lee",
+  "license": ""
+}
